@@ -1,0 +1,430 @@
+commit 4c421d83c51db40346862d47ba843f54100b291d
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Mon Jul 8 12:02:00 2013 -0500
+
+    Updated output files
+
+commit 8d1a20620296e2d5174ac4fe5f27f01b78fc10d1
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Mon Jul 8 11:57:02 2013 -0500
+
+    Integer.operator%= complete. This is the last of the coding to be done
+
+commit df449d887661963dfcff02f5f2f1eb5b6f040e84
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Mon Jul 8 11:54:52 2013 -0500
+
+    Integer.operator/= complete and passing
+
+commit a348a128e13093878d8070fd9c51889a949b84a6
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Mon Jul 8 11:47:19 2013 -0500
+
+    Divides is passing all tests, so I cleaned them up a bit
+
+commit 0aa5c933757b6ac89a492a1e37cdaf5124a417d3
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Mon Jul 8 11:46:11 2013 -0500
+
+    DIVIDES IS PASSING ALL TESTS
+
+commit 0595d8c09a49d2efc51b6913cb4a32c5976d0a6a
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Mon Jul 8 11:27:29 2013 -0500
+
+    Making some serious headway with divides_digits
+
+commit 1ebf37cb5a0eaef914b15250a5549494902ffdf0
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Mon Jul 8 10:48:02 2013 -0500
+
+    Added two more edge case tests for multiplies_digits
+
+commit 2dcf3aad43b5f63d688d1dbee7cb2821348527e7
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Mon Jul 8 10:45:59 2013 -0500
+
+    Fixed compile errors in Integer.h and added some tests for divide
+
+commit ceb147e76fd067c2e7e3d5bbec3e5a32ea976de2
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Sun Jul 7 16:19:19 2013 -0500
+
+    Made ... some.. headway into divides, still not done
+
+commit 70716f8aba8313fcc21d8cca34bcd6286474b0fa
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sun Jul 7 13:34:52 2013 -0500
+
+    Giving it some time to think about division
+
+commit 1fbc8a63da62d9b185e3dcbbedf7a671b43a9d95
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sun Jul 7 12:53:15 2013 -0500
+
+    Divides digits handles special cases, but not the general case
+
+commit abd079ddbd629e3c529d057e5be32ac5f9dbc4f0
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sun Jul 7 12:42:33 2013 -0500
+
+    started on division
+
+commit 2501d47ca40f8edd9083334d7d24cdc3dea16ee4
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sun Jul 7 12:32:09 2013 -0500
+
+    Added tests for compare
+
+commit 20560d37893213439b10dd26ea5fbbe09d969c90
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sun Jul 7 12:29:15 2013 -0500
+
+    Added in compare function
+
+commit ce9e69fd13e576545252bba32604cbd91fcf8884
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sun Jul 7 11:37:50 2013 -0500
+
+    Giving up on Karatsuba for now
+
+commit ad16d9c76e00522a0a08fb82331406901484d2c5
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 19:25:49 2013 -0500
+
+    Wasn't pleased with the Karatsuba algorithm as a member of Integer, will
+    have to make it a raw function
+
+commit cb405a31415de9f0dab80b3ea1b88e21ce69aac1
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 19:19:58 2013 -0500
+
+    Wasn't really impressed with the performance of the karatsuba algorithm
+
+commit 0e4ff3f5f2c91e585c33ea0fe7ae8a65d4588965
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 18:55:00 2013 -0500
+
+    Trying something else for recursive karatsuba algorithm
+
+commit 68c84ef52ba058014415fe28b87236edce2db11a
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 18:19:43 2013 -0500
+
+    Fixed a bug in shift_right
+
+commit 4e0988287b7e08416fef6fe76982829d3ad903ec
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 18:12:25 2013 -0500
+
+    Added bidirectional version of minus_digits
+
+commit 414ca56741b875f79db526abe8d3198966eed862
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 17:52:34 2013 -0500
+
+    Put in bidirectional iterator version of plus
+
+commit a24e721b9b726fe275f2211c2aaa23bf325b9d63
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 17:24:08 2013 -0500
+
+    Learned a pretty awesome speed up for pow from Java's BigInteger and
+    implemented it.  Finishes RunInteger.c++ in under a minute
+
+commit 5b02938001ff0b8936e8cde066fde90c1504b7ff
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 17:19:53 2013 -0500
+
+    Cleaned up some commenting
+
+commit fe0b5dc1d22b3a70ae61bd23d09f2a8f1de912ae
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 16:57:27 2013 -0500
+
+    Added n^2 algorith for bi-directional iterators in multiplies
+
+commit 3bab97bfb08c500044ad7e04799dc867508c8937
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 16:38:03 2013 -0500
+
+    Finishes run test
+
+commit b52163aa4f77ccb87b30c381d6cb553a4058baf9
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 16:23:42 2013 -0500
+
+    pow passses all tests, it just takes a long time
+
+commit a240ac440aa00be4b430f986eda2e1ce62aaa6a8
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 16:16:29 2013 -0500
+
+    Added preconditions and speed ups for pow, still not passing large tests
+    in reasonable time
+
+commit 2dbb3bfcbd7525fc16a6d76bda57ecc94a950f9e
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 16:08:25 2013 -0500
+
+    Added speed-ups for edge cases in += and *=
+
+commit 5aabc1612160175f73c5a9fb51fe8fa6796ea6e0
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 16:01:58 2013 -0500
+
+    Fixed some bugs in pow, passes small tests, going to try speeding up for
+    bigger tests
+
+commit a89f4b3777ea509c511b100df52c67df7ce9e120
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 15:50:02 2013 -0500
+
+    Finished *=, but pow takes waaayyyyyyyyyy too long
+
+commit 8f2089fbcdffc9c1358fe33df41e8184e1d3ff6d
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 15:33:53 2013 -0500
+
+    Cleared a lot of unnecessary commenting
+
+commit 2142fe0a194fb5e466cc7527bec7d1c5081bf7af
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 15:30:30 2013 -0500
+
+    Filled in what I think is pow, but can't verify until *= is complete
+
+commit 0a2abca2ddd8b4bc96f1c510ec3fa95567786800
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 15:28:38 2013 -0500
+
+    Completed shift right equal
+
+commit 3283d13a80688abefff96ecdf77373f39add0434
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 15:24:53 2013 -0500
+
+    Completed shift_left_equal
+
+commit 660d43269e7416ac7fbabcc1e9bcdc826eaaedc3
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 15:16:11 2013 -0500
+
+    Added docs
+
+commit 3010c03bb805e44cb72a431bc5b04624d622c3f8
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 15:14:26 2013 -0500
+
+    Finished +=, -=, and all the documentation
+
+commit df7892162c14299ab033db4a6b4b29e2c1bdae1f
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Sat Jul 6 00:06:08 2013 -0500
+
+    Discovered that the operators weren't correctly handling negative
+    numbers, added tests
+
+commit 28529e4650df4965e0dc294754c20d4b177b514f
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Fri Jul 5 23:54:09 2013 -0500
+
+    Implemented plus_equals
+
+commit 4bab176e9980ef633c1091b25e5f5ad0590402a0
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Fri Jul 5 23:16:48 2013 -0500
+
+    Fixed bad test
+
+commit 2a06489c701c27de8a532224ca7d39e389b5da3d
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Fri Jul 5 23:15:33 2013 -0500
+
+    Implemented output
+
+commit d2530329be32a0855f328c8b636eaf14c60ea66e
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Fri Jul 5 23:13:01 2013 -0500
+
+    Implemented ==, <, valid, and constructors
+
+commit 67073f4718a163bad8ccb888679500efd5e262d7
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Fri Jul 5 22:21:07 2013 -0500
+
+    Added some commenting to multiplies
+
+commit 3cab7bbcfd79b3ed34f4f1ad8291b4c00bacab84
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Fri Jul 5 22:09:50 2013 -0500
+
+    Finally got multiplies_digits working, passing all tests
+
+commit 01f4f7c487c89b5ef95b2fd35b98256b9e3f095c
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Fri Jul 5 14:24:46 2013 -0500
+
+    Will try multiplication later
+
+commit 4db6986c68f52842b4c4fcd322eac15fff93b378
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Fri Jul 5 13:00:45 2013 -0500
+
+    Changed subtraction to go from the left as well, passes all tests
+
+commit d556741b70876153d3949bcdcbb67b84e4ad9fc2
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Fri Jul 5 12:52:11 2013 -0500
+
+    Fixed small bug in shift_right
+
+commit 13da1c1a5ecfe06ed3587a8f315c2d14f9560053
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Fri Jul 5 12:51:06 2013 -0500
+
+    Cleaned up shift_left a little
+
+commit 8b5a3fcbec2d2fba71bfab65713806a0ba38aa58
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Fri Jul 5 12:49:50 2013 -0500
+
+    Redid plus_digits and shift_right to be cleaner and more efficient
+
+commit 7de10601ddf24b132fb16882f3480017dab8eed3
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Thu Jul 4 00:26:52 2013 -0500
+
+    Started work on multiply, not done yet
+
+commit 85a050c16e9980f0c4769a68f6c227a28f5d8973
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Thu Jul 4 00:26:34 2013 -0500
+
+    Added more unit tests
+
+commit 694473254df4ad0774b32e6ae22703a355b5ffc6
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Wed Jul 3 22:46:08 2013 -0500
+
+    Finished and tested minus_digits with same setup as plus_digits
+
+commit 572587a9965b91a7132f1b28f04f62e2c1fad8c5
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Wed Jul 3 22:41:10 2013 -0500
+
+    Fixed leading zeroes in plus_digits
+
+commit a64b0352048f8d31cbce00651ac739324452a97b
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Wed Jul 3 20:52:44 2013 -0500
+
+    Made make all target just build instead of running binaries
+
+commit 66ed7ae98e121f1bb8854134a14cfd6c6b09a582
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Wed Jul 3 18:21:13 2013 -0500
+
+    Changed the plus digits to take input iterators and use vectors inside
+
+commit 6014281412e8053ab2fe088eceeedc04813b1ee5
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Wed Jul 3 17:41:42 2013 -0500
+
+    Fixed up some corner cases with plus_digits
+
+commit f81eb6c40abfd818c39bfbb8e3ec62dc813d0de9
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Wed Jul 3 17:24:29 2013 -0500
+
+    Fixed some faulty tests
+
+commit 8282343bc766dfbc3e9aeacfaedfca8efe44a84f
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Wed Jul 3 17:24:03 2013 -0500
+
+    Have plus_digits working, but requires a bi-directional iterator
+
+commit fac482e46dbd890e0f3f2675f87b77c3e17a877c
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Wed Jul 3 16:51:46 2013 -0500
+
+    Added some targets to the makefile
+
+commit 8009e78ef9c571f72320b516b1b6a7a4e27b22d3
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Wed Jul 3 15:08:12 2013 -0500
+
+    Updated gitignore to ignore binaries
+
+commit c010aa3c5e88b7cc236a1856dc48772bf626a1e2
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Wed Jul 3 15:07:33 2013 -0500
+
+    Completed both versions of shift_right
+
+commit 539423bd16029f5dd1c22aa2d05c839623a8d291
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Wed Jul 3 14:24:41 2013 -0500
+
+    Filled in shift left, started working on shift right
+
+commit 0a71290cae358e7118bb0f17e31caf4c23297293
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Wed Jul 3 14:08:37 2013 -0500
+
+    Added the last of the starting unit tests
+
+commit 089bda407ed7036d3f5913431582f87959e58ec0
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Wed Jul 3 13:17:38 2013 -0500
+
+    Ran make all
+
+commit 7d2876927a3e54c07f583690dbb65c009a98eb52
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Wed Jul 3 13:17:07 2013 -0500
+
+    Added a few more unit tests, slowly but surely
+
+commit ccedcb8750c2697ee554e5b082d49fc22dcd8b23
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Wed Jul 3 12:58:12 2013 -0500
+
+    More unit tests
+
+commit 0587cc09a2347431a2c1cd801da88f088a7a06dd
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Wed Jul 3 12:26:07 2013 -0500
+
+    More unit tests
+
+commit e154e7bf45e6c2d5fae6d1bbc590b23d76548441
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Wed Jul 3 12:12:44 2013 -0500
+
+    More unit tests
+
+commit 2b7739e6fa812cbf906b6c1145bb1bc309b2db7d
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Wed Jul 3 12:04:03 2013 -0500
+
+    Added some unit tests, but not done with them.
+
+commit 2c359e860d8fe08dcdd0e4a99427254decaf05f1
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Wed Jul 3 10:33:18 2013 -0500
+
+    Added in skeleton code
+
+commit 76e2649871ecd859ae228221ea7ed3807402d3e8
+Author: Taylor McKinney <taylormck@utexas.edu>
+Date:   Wed Jul 3 10:16:53 2013 -0500
+
+    Added all files but documentation folder and updated gitignore
+
+commit 6ef3274eb5acc553563c61e8c3748cf296ac5190
+Author: Taylor McKinney <taylorsmck@gmail.com>
+Date:   Wed Jul 3 08:13:38 2013 -0700
+
+    Initial commit
